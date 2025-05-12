@@ -112,6 +112,6 @@ jobs:
       with:
         name: aseprite
         path: |
-          $PWD/build/
+          ${{ github.workspace }}/build/
         if-no-files-found: error
         overwrite : true 
